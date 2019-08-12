@@ -1371,5 +1371,24 @@
         },
         "explorerTxLink": "https://gastracker.io/tx/{0}",
         "explorerAccountLink": "https://gastracker.io/addr/{0}"
+    },
+    "umbru": {
+        "name": "Umbru",
+        "symbol": "UMBRU",
+        "family": "bitcoin",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "x25x"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [ { "hash": "x25x" } ]
+        },
+        "hasMasterNodes": true,
+        "explorerBlockLink": "https://explorer.umbru.io/block/$height$",
+        "explorerTxLink": "https://explorer.umbru.io/tx/{0}",
+        "explorerAccountLink": "https://explorer.umbru.io/address/{0}"
     }
 }
