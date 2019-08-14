@@ -1387,8 +1387,8 @@
             "args": [ { "hash": "x25x" } ]
         },
         "hasMasterNodes": true,
-        "explorerBlockLink": "https://explorer.umbru.io/block/$height$",
-        "explorerTxLink": "https://explorer.umbru.io/tx/{0}",
-        "explorerAccountLink": "https://explorer.umbru.io/address/{0}"
+        "explorerBlockLink": "https://explorer.umbru.io/insight/block/$height$",
+        "explorerTxLink": "https://explorer.umbru.io/insight/tx/{0}",
+        "explorerAccountLink": "https://explorer.umbru.io/insight/address/{0}"
     }
 }
